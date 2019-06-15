@@ -14,7 +14,6 @@ RUN curl -L \
   && unzip map-repo.zip \
   && rm map-repo.zip
 CMD ./fteqw-sv64 \
-  -nohome \
   +set hostname ${FO_HOSTNAME} \
   +set rcon_password ${FO_RCON_PASSWORD} \
   +localinfo adminpwd ${FO_ADMINPWD} \
