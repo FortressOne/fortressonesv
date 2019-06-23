@@ -22,7 +22,7 @@ docker run \
 
 Note:
 - `FO_HOSTNAME` is just the string name of the server.
-- Valid `FO_MODE`s are `pub`, `duel`, `quad`, `pub`
+- Valid `FO_MODE`s are `pub`, `duel`, `quad`, `pub`, `staging`
 
 
 Stop fortressonesv:
