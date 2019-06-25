@@ -8,7 +8,6 @@ docker build --tag=fortressonesv .
 Run fortressonesv:
 
 ```sh
-docker run -p 27500:27500/udp fortressonesv
 docker run \
   -p 27500:27500/udp \
   -e FO_SERVERIP=location.fortressone.org \
