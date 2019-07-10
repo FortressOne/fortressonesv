@@ -10,12 +10,14 @@ Run fortressonesv:
 ```sh
 docker run \
   -p 27500:27500/udp \
-  -e FO_SERVERIP=location.fortressone.org \
+  -e FO_IP=location.fortressone.org \
   -e FO_PORT=27500 \
   -e FO_HOSTNAME="FortressOne Location" \
   -e FO_RCON_PASSWORD=rc0np4ssw0rd \
   -e FO_ADMINPWD=adm1np4ssw0rd \
-  -e FO_MODE=quad
+  -e FO_PASSWORD=p455w0rd \
+  -e FO_MODE=pub
+  -e FO_MAP=2fort5r
   fortressonesv
 ```
 
