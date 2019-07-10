@@ -16,8 +16,8 @@ docker run \
   -e FO_RCON_PASSWORD=rc0np4ssw0rd \
   -e FO_ADMINPWD=adm1np4ssw0rd \
   -e FO_PASSWORD=p455w0rd \
-  -e FO_MODE=pub
-  -e FO_MAP=2fort5r
+  -e FO_MODE=pub \
+  -e FO_MAP=2fort5r \
   fortressonesv
 ```
 
