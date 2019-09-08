@@ -12,7 +12,7 @@ RUN curl -L \
 COPY . /fortressonesv
 RUN curl -L \
     -o fortress/qwprogs.dat \
-    https://github.com/FortressOne/server-qwprogs/releases/latest/download/qwprogs.dat \
+    https://github.com/FortressOne/server-qwprogs/releases/latest/download/qwprogs.dat
 CMD ./fteqw-sv64 \
   -ip ${FO_IP} \
   -port ${FO_PORT} \
