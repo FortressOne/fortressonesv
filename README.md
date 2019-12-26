@@ -15,7 +15,7 @@ server directory
 e.g. To run in pub mode with 2fort5r as the initial map
 
 ```sh
-./fteqw-sv64 +set hostname 'My FortressOne Server' +exec fo_pumode.cfg +map 2fort5r
+./fteqw-sv64 +set hostname 'My FortressOne Server' +exec fo_pubmode.cfg +map 2fort5r
 ```
 
 
