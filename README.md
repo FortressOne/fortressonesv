@@ -4,6 +4,10 @@
 
 ### Manually (only on Linux x86-64)
 
+This package includes only one map, for a complete set of maps, download/clone
+from [map-repo](https://github.com/FortressOne/map-repo) and extract into
+server directory
+
 ```sh
 ./fteqw-sv64 +set hostname <description> +exec fo_<mode>mode.cfg +map <map>
 ```
@@ -20,13 +24,13 @@ e.g. To run in pub mode with 2fort5r as the initial map
 Default (pub mode with no passwords and 2fort5r as initial map):
 
 ```sh
-docker run --init -p 27500:27500/udp fortressonesv
+docker run -i -t --init --rm -p 27500:27500/udp fortressonesv
 ```
 
 With arguments (you must provide all):
 
 ```sh
-docker run --init \
+docker run -i -t --init --rm \
   -p 27500:<local_port>/udp \
   -e FO_IP=<local_ip_address> \
   -e FO_PORT=27500 \
@@ -38,6 +42,10 @@ docker run --init \
   -e FO_MAP=<mapname> \
   fortressonesv
 ```
+
+Note:
+- `FO_HOSTNAME` is just the string name of the server.
+- Valid `FO_MODE`s are `pub`, `duel`, `quad`, `pub`, `staging`
 
 e.g. To run in quad mode, with passwords and mbasesr as the initial map:
 
@@ -54,11 +62,6 @@ docker run --init \
   -e FO_MAP=mbasesr \
   fortressonesv
 ```
-
-
-Note:
-- `FO_HOSTNAME` is just the string name of the server.
-- Valid `FO_MODE`s are `pub`, `duel`, `quad`, `pub`, `staging`
 
 
 
