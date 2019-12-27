@@ -1,80 +1,94 @@
-# Fortress One Server
+# FortressOne Server
 
-## Run fortressonesv:
+All in one package to run a FortressOne server. Powered by FTE server.
 
-### Manually (only on Linux x86-64)
+## Run
+
+### With docker (recommended)
+
+Requires [docker](https://docs.docker.com/install/)
+
+```
+docker run --interactive --tty --init --rm \
+  --publish 27500:<port>/udp \
+  --mount type=bind,source=<path_to_maps>,target=/fortressonesv/fortress/maps/ \
+  --mount type=bind,source=<path_to_sound>,target=/fortressonesv/fortress/sound/ \
+  --mount type=bind,source=<path_to_progs>,target=/fortressonesv/fortress/progs/ \
+  --mount type=bind,source=<path_to_locs>,target=/fortressonesv/fortress/locs/ \
+  --mount type=bind,source=<path_to_lits>,target=/fortressonesv/fortress/lits/ \
+  --mount type=bind,source=<path_to_demos>,target=/fortressonesv/fortress/demos/ \
+  fortressonesv \
+  -ip <ip> \
+  +set hostname <name> \
+  +set rcon_password <rcon_password> \
+  +localinfo adminpwd <admin_password> \
+  +exec fo_<mode>mode.cfg \
+  +map <map>
+```
+
+Note:
+- `ip` should be set to your public IP / DNS for public servers
+- `hostname` is the string name of the server
+- You should `exec` one of `fo_pubmode.cfg`, `fo_duelmode.cfg`,
+  `fo_quadmode.cfg`, `fo_pugmode.cfg`
+
+
+#### Example configuration
+
+To run a server on port 27500, with full set of assets, in quad mode on mbasesr:
+
+- Download and extract FortressOne [map-repo](https://github.com/FortressOne/map-repo/releases/latest/download/map-repo.zip)
+- Run the server.
+    ```
+    cd map-repo/
+    docker run --interactive --tty --init --rm \
+      --publish 27500:27500/udp \
+      --mount type=bind,source="$(pwd)/fortress/maps/",target=/fortressonesv/fortress/maps/ \
+      --mount type=bind,source="$(pwd)/fortress/sound/",target=/fortressonesv/fortress/sound/ \
+      --mount type=bind,source="$(pwd)/fortress/progs/",target=/fortressonesv/fortress/progs/ \
+      --mount type=bind,source="$(pwd)/fortress/locs/",target=/fortressonesv/fortress/locs/ \
+      --mount type=bind,source="$(pwd)/fortress/lits/",target=/fortressonesv/fortress/lits/ \
+      --mount type=bind,source="$(pwd)",target=/fortressonesv/fortress/demos/ \
+      fortressonesv \
+      -ip localhost \
+      +set hostname "My Local FortressOne Server" \
+      +set rcon_password rc0n \
+      +localinfo adminpwd 4dm1n \
+      +exec fo_quadmode.cfg \
+      +map mbasesr
+    ```
+- Demos automatically record in quad and pug mode and are accessible in the present working directory.
+
+
+### Without docker (only on Linux x86-64)
+
+```
+./fteqw-sv64 +set hostname <name> +exec fo_<mode>mode.cfg +map <map>
+```
+
+#### Example configuration
+
+To run in pub mode with 2fort5r as the initial map:
+
+```
+./fteqw-sv64 +set hostname 'My FortressOne Server' +exec fo_pubmode.cfg +map 2fort5r
+```
 
 This package includes only one map, for a complete set of maps, download/clone
 from [map-repo](https://github.com/FortressOne/map-repo) and extract into
 server directory
 
-```sh
-./fteqw-sv64 +set hostname <description> +exec fo_<mode>mode.cfg +map <map>
-```
 
-e.g. To run in pub mode with 2fort5r as the initial map
-
-```sh
-./fteqw-sv64 +set hostname 'My FortressOne Server' +exec fo_pubmode.cfg +map 2fort5r
-```
-
-
-### With docker (recommended)
-
-Default (pub mode with no passwords and 2fort5r as initial map):
-
-```sh
-docker run -i -t --init --rm -p 27500:27500/udp fortressonesv
-```
-
-With arguments (you must provide all):
-
-```sh
-docker run -i -t --init --rm \
-  -p 27500:<local_port>/udp \
-  -e FO_IP=<local_ip_address> \
-  -e FO_PORT=27500 \
-  -e FO_HOSTNAME="<server description>" \
-  -e FO_RCON_PASSWORD=<rcon_password> \
-  -e FO_ADMINPWD=<admin_password> \
-  -e FO_PASSWORD=<server_password> \ # use "none" for no password
-  -e FO_MODE=<mode> \
-  -e FO_MAP=<mapname> \
-  fortressonesv
-```
-
-Note:
-- `FO_HOSTNAME` is just the string name of the server.
-- Valid `FO_MODE`s are `pub`, `duel`, `quad`, `pub`, `staging`
-
-e.g. To run in quad mode, with passwords and mbasesr as the initial map:
-
-```sh
-docker run --init \
-  -p 27500:27500/udp \
-  -e FO_IP=localhost \
-  -e FO_PORT=27500 \
-  -e FO_HOSTNAME="FortressOne Sydney" \
-  -e FO_RCON_PASSWORD=rc0n \
-  -e FO_ADMINPWD=4dm1n \
-  -e FO_PASSWORD=p4ssw0rd \
-  -e FO_MODE=quad \
-  -e FO_MAP=mbasesr \
-  fortressonesv
-```
-
-
-
-## Build fortressonesv:
+## Build fortressonesv
 
 ```
 docker build --tag=fortressonesv .
 ```
 
 
-## Deploy fortressonesv:
+## Deploy fortressonesv
 
-```sh
+```
 docker tag fortressonesv fortressone/fortressonesv:latest
 docker push fortressone/fortressonesv:latest
 ```
