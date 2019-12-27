@@ -40,7 +40,6 @@ To run a server on port 27500, with full set of assets, in quad mode on mbasesr:
 - Download and extract FortressOne [map-repo](https://github.com/FortressOne/map-repo/releases/latest/download/map-repo.zip)
 - Run the server.
     ```
-    cd map-repo/
     docker run --interactive --tty --init --rm \
       --publish 27500:27500/udp \
       --mount type=bind,source="$(pwd)/fortress/maps/",target=/fortressonesv/fortress/maps/ \
