@@ -11,11 +11,7 @@ Requires [docker](https://docs.docker.com/install/)
 ```
 docker run --interactive --tty --init --rm \
   --publish 27500:<port>/udp \
-  --mount type=bind,source=<path_to_maps>,target=/fortressonesv/fortress/maps/ \
-  --mount type=bind,source=<path_to_sound>,target=/fortressonesv/fortress/sound/ \
-  --mount type=bind,source=<path_to_progs>,target=/fortressonesv/fortress/progs/ \
-  --mount type=bind,source=<path_to_locs>,target=/fortressonesv/fortress/locs/ \
-  --mount type=bind,source=<path_to_lits>,target=/fortressonesv/fortress/lits/ \
+  --mount type=bind,source=<path_to_assets>,target=/fortressonesv/fortress/assets/ \
   --mount type=bind,source=<path_to_demos>,target=/fortressonesv/fortress/demos/ \
   fortressonesv \
   -ip <ip> \
@@ -42,11 +38,7 @@ To run a server on port 27500, with full set of assets, in quad mode on mbasesr:
     ```
     docker run --interactive --tty --init --rm \
       --publish 27500:27500/udp \
-      --mount type=bind,source="$(pwd)/fortress/maps/",target=/fortressonesv/fortress/maps/ \
-      --mount type=bind,source="$(pwd)/fortress/sound/",target=/fortressonesv/fortress/sound/ \
-      --mount type=bind,source="$(pwd)/fortress/progs/",target=/fortressonesv/fortress/progs/ \
-      --mount type=bind,source="$(pwd)/fortress/locs/",target=/fortressonesv/fortress/locs/ \
-      --mount type=bind,source="$(pwd)/fortress/lits/",target=/fortressonesv/fortress/lits/ \
+      --mount type=bind,source="$(pwd)/fortress/assets/",target=/fortressonesv/fortress/assets/ \
       --mount type=bind,source="$(pwd)",target=/fortressonesv/fortress/demos/ \
       fortressonesv \
       -ip localhost \
