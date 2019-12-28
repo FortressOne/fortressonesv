@@ -12,7 +12,6 @@ RUN cd fortress/ \
  && cd -
 ENTRYPOINT ["/fortressonesv/fteqw-sv64"]
 CMD ["-ip", "localhost", \
-     "-port", "27500", \
      "+set", "hostname", "FortressOne", \
      "+exec", "fo_pubmode.cfg", \
      "+map", "2fort5r"]
