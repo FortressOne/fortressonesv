@@ -26,7 +26,7 @@ Note:
 - `ip` should be set to your public IP / DNS for public servers
 - `hostname` is the string name of the server
 - You should `exec` one of `fo_pubmode.cfg`, `fo_duelmode.cfg`,
-  `fo_quadmode.cfg`, `fo_pugmode.cfg`
+  `fo_quadmode.cfg`, `fo_clanmode.cfg`
 
 
 #### Example configuration
@@ -48,7 +48,7 @@ To run a server on port 27500, with full set of assets, in quad mode on mbasesr:
       +exec fo_quadmode.cfg \
       +map mbasesr
     ```
-- Demos automatically record in quad and pug mode and are accessible in the present working directory.
+- Demos automatically record in quad and clan mode and are accessible in the present working directory.
 
 
 ### Without docker (only on Linux x86-64)
