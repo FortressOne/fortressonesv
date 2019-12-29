@@ -10,7 +10,7 @@ Requires [docker](https://docs.docker.com/install/)
 
 ```
 docker run --interactive --tty --init --rm \
-  --publish 27500:<port>/udp \
+  --publish <port>:27500/udp \
   --mount type=bind,source=<path_to_assets>,target=/fortressonesv/fortress/assets/ \
   --mount type=bind,source=<path_to_demos>,target=/fortressonesv/fortress/demos/ \
   fortressonesv \
@@ -34,11 +34,11 @@ Note:
 To run a server on port 27500, with full set of assets, in quad mode on mbasesr:
 
 - Download and extract FortressOne [map-repo](https://github.com/FortressOne/map-repo/releases/latest/download/map-repo.zip)
-- Run the server.
+- Run the server from map-repo root directory.
     ```
     docker run --interactive --tty --init --rm \
       --publish 27500:27500/udp \
-      --mount type=bind,source="$(pwd)/fortress/assets/",target=/fortressonesv/fortress/assets/ \
+      --mount type=bind,source="$(pwd)/fortress/",target=/fortressonesv/fortress/assets/ \
       --mount type=bind,source="$(pwd)",target=/fortressonesv/fortress/demos/ \
       fortressonesv \
       -ip localhost \
