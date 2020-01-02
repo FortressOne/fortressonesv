@@ -10,7 +10,7 @@ RUN cd fortress/ \
     --remote-name-all \
     http://github.com/FortressOne/server-qwprogs/releases/latest/download/{qwprogs,csprogs,menu}.dat \
  && cd -
-ENTRYPOINT ["/fortressonesv/fteqw-sv64", "+set sv_public 1"]
+ENTRYPOINT ["/fortressonesv/fteqw-sv64"]
 CMD ["-ip", "localhost", \
      "+set", "hostname", "FortressOne", \
      "+exec", "fo_pubmode.cfg", \
