@@ -2,11 +2,13 @@
 
 All in one package to run a FortressOne server. Powered by FTE server.
 
-## Run
 
-### With docker (recommended)
+## With Docker
 
 Requires [docker](https://docs.docker.com/install/)
+
+
+### Run
 
 ```
 docker run --interactive --tty --init --rm \
@@ -28,10 +30,7 @@ Note:
 - You should `exec` one of `fo_pubmode.cfg`, `fo_duelmode.cfg`,
   `fo_quadmode.cfg`, `fo_clanmode.cfg`
 
-
-#### Example configuration
-
-To run a server on port 27500, with full set of assets, in quad mode on mbasesr:
+E.G. To run a server on port 27500, with full set of assets, in quad mode on mbasesr:
 
 - Download and extract FortressOne [map-repo](https://github.com/FortressOne/map-repo/releases/latest/download/map-repo.zip)
 - Run the server from map-repo root directory.
@@ -51,13 +50,33 @@ To run a server on port 27500, with full set of assets, in quad mode on mbasesr:
 - Demos automatically record in quad and clan mode and are accessible in the present working directory.
 
 
-### Without docker (only on Linux x86-64)
+### Build fortressonesv
+
+```
+docker build --tag=fortressonesv .
+```
+
+
+### Deploy fortressonesv
+
+```
+docker tag fortressonesv fortressone/fortressonesv:latest
+docker push fortressone/fortressonesv:latest
+```
+
+
+## Without Docker
+
+Download the latest FTE Server binary for your OS from http://fte.triptohell.info and copy into the root directory of the map-repo
+
+
+### Run
 
 ```
 ./fteqw-sv64 +set hostname <name> +exec fo_<mode>mode.cfg +map <map>
 ```
 
-#### Example configuration
+E.G. Example configuration
 
 To run in pub mode with 2fort5r as the initial map:
 
@@ -68,18 +87,3 @@ To run in pub mode with 2fort5r as the initial map:
 This package includes only one map, for a complete set of maps, download/clone
 from [map-repo](https://github.com/FortressOne/map-repo) and extract into
 server directory
-
-
-## Build fortressonesv
-
-```
-docker build --tag=fortressonesv .
-```
-
-
-## Deploy fortressonesv
-
-```
-docker tag fortressonesv fortressone/fortressonesv:latest
-docker push fortressone/fortressonesv:latest
-```
