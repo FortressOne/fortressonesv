@@ -72,16 +72,28 @@ Download the latest FTE Server binary for your OS from http://fte.triptohell.inf
 
 ### Run
 
+#### Linux
+
 ```
 ./fteqw-sv64 +set hostname <name> +exec fo_<mode>mode.cfg +map <map>
 ```
 
-E.G. Example configuration
-
-To run in pub mode with 2fort5r as the initial map:
+E.G. To run in pub mode with 2fort5r as the initial map:
 
 ```
 ./fteqw-sv64 +set hostname 'My FortressOne Server' +exec fo_pubmode.cfg +map 2fort5r
+```
+
+#### Windows
+
+```
+fteqwsv64.exe +set hostname <name> +exec fo_<mode>mode.cfg +map <map>
+```
+
+E.G. To run in pub mode with 2fort5r as the initial map:
+
+```
+fteqwsv64.exe +set hostname 'My FortressOne Server' +exec fo_pubmode.cfg +map 2fort5r
 ```
 
 This package includes only one map, for a complete set of maps, download/clone
