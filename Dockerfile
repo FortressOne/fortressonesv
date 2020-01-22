@@ -9,6 +9,7 @@ RUN apt-get update \
     libgnutls28-dev \
     libpng-dev \
     make \
+    mesa-common-dev \
     subversion \
     zlib1g-dev \
  && rm -rf /var/lib/apt/lists/*
