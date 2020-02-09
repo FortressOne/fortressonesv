@@ -1,7 +1,6 @@
 FROM ubuntu:18.04
 WORKDIR /fortressonesv
 EXPOSE 27500/udp
-EXPOSE 27500/tcp
 RUN apt-get update \
  && apt-get install -y \
     curl \
