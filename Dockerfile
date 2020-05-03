@@ -14,6 +14,8 @@ RUN apt-get update \
  && rm -rf /var/lib/apt/lists/*
 COPY . /fortressonesv/
 RUN svn checkout https://svn.code.sf.net/p/fteqw/code/trunk /tmp/fteqw-code \
+ && cd /tmp/fteqw-code/ \
+ && svn up r5680 \
  && cd /tmp/fteqw-code/engine/ \
  && make sv-rel -j`nproc` \
  && cd /fortressonesv/ \
