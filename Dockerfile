@@ -13,10 +13,12 @@ RUN apt-get update \
     zlib1g-dev \
  && rm -rf /var/lib/apt/lists/*
 COPY . /fortressonesv/
-RUN svn checkout https://svn.code.sf.net/p/fteqw/code/trunk /tmp/fteqw-code \
- && cd /tmp/fteqw-code/ \
- && svn up -r 5680 \
- && cd /tmp/fteqw-code/engine/ \
+RUN cd /tmp/ \
+ && mkdir -p fteqw-code \
+ && cd /tmp/fteqw-code \
+ && curl --location --remote-name-all http://github.com/FortressOne/fteqw/releases/latest/download/source.tar.gz \
+ && tar -xvf ./source.tar.gz \
+ && cd /tmp/fteqw-code/trunk/engine/ \
  && make sv-rel -j`nproc` \
  && cd /fortressonesv/ \
  && mv /tmp/fteqw-code/engine/release/fteqw-sv /fortressonesv/ \
