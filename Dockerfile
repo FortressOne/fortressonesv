@@ -21,7 +21,7 @@ RUN cd /tmp/ \
  && cd /tmp/fteqw-code/trunk/engine/ \
  && make sv-rel -j`nproc` \
  && cd /fortressonesv/ \
- && mv /tmp/fteqw-code/engine/release/fteqw-sv /fortressonesv/ \
+ && mv /tmp/fteqw-code/trunk/engine/release/fteqw-sv /fortressonesv/ \
  && rm -rf /tmp/fteqw-code/
 RUN cd /fortressonesv/fortress/dats/ \
  && curl \
