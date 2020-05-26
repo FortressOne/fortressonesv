@@ -67,7 +67,7 @@ docker push fortressone/fortressonesv:latest
 
 ## Without Docker
 
-Download the latest FTE Server binary for your OS from http://fte.triptohell.info and the [map-repo](https://github.com/FortressOne/map-repo). Copy these into your fortressonesv path.
+Download the latest [ftesv](http://fte.triptohell.info) server binary for your OS from  and the [map-repo](https://github.com/FortressOne/map-repo). Copy these into your fortressonesv path.
 
 
 ### Run
