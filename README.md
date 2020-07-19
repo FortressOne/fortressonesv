@@ -67,7 +67,7 @@ docker push fortressone/fortressonesv:latest
 
 ## Without Docker
 
-Download the latest FTE Server binary for your OS from http://fte.triptohell.info and copy into the root directory of the map-repo
+Download the latest [ftesv](http://fte.triptohell.info) server binary for your OS from  and the [map-repo](https://github.com/FortressOne/map-repo). Copy these into your fortressonesv path.
 
 
 ### Run
@@ -95,7 +95,3 @@ E.G. To run in pub mode with 2fort5r as the initial map:
 ```
 fteqwsv64.exe +set hostname 'My FortressOne Server' +exec fo_pubmode.cfg +map 2fort5r
 ```
-
-This package includes only one map, for a complete set of maps, download/clone
-from [map-repo](https://github.com/FortressOne/map-repo) and extract into
-server directory
