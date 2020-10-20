@@ -101,11 +101,12 @@ fteqwsv64.exe +set hostname 'My FortressOne Server' +exec fo_pubmode.cfg +map 2f
 
 Download:
   - [This package](https://github.com/FortressOne/fortressonesv/archive/master.zip)
-  - [FTE Server for Windows](https://fte.triptohell.info/moodles/win64/fteqwsv64.exe)
-  - [FortressOne Server Progs](https://github.com/FortressOne/server-qwprogs/releases/latest/download/progs.zip)
+  - [Latest FTE Server for Windows](https://fte.triptohell.info/moodles/win64/fteqwsv64.exe)
+  - [Latest FortressOne Server Progs](https://github.com/FortressOne/server-qwprogs/releases/latest/download/progs.zip)
 
 Install:
-  - Extract `fortressonesv-master.zip` to `C:\FTESV`
+  - Extract `fortressonesv-master.zip` to `C:\`
+  - Rename `C:\fortressonesv-master` to `C:\FTESV`
   - Copy `fteqwsv64.exe` to `C:\FTESV`
   - Extract `progs.zip` to `C:\FTESV\fortress`
 
