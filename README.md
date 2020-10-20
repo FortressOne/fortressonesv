@@ -95,3 +95,31 @@ E.G. To run in pub mode with 2fort5r as the initial map:
 ```
 fteqwsv64.exe +set hostname 'My FortressOne Server' +exec fo_pubmode.cfg +map 2fort5r
 ```
+
+
+### I just wanna run a server on Windows and I don't understand all that mumbo-jumbo
+
+Download:
+  - [This package](https://github.com/FortressOne/fortressonesv/archive/master.zip)
+  - [FTE Server for Windows](https://fte.triptohell.info/moodles/win64/fteqwsv64.exe)
+
+Install:
+  - Extract `fortressonesv-master.zip` to `C:\FTESV`
+  - Copy `fteqwsv64.exe` to `C:\FTESV`
+
+Run server:
+  - Open command prompt and type:
+      ```
+      cd FTESV
+      fteqwsv64.exe +set hostname 'My FortressOne Server' +exec fo_pubmode.cfg +map 2fort5r
+      ```
+
+Join server:
+  - Open the game, press `~` to open console, type:
+      ```
+      connect localhost
+      ```
+
+Add maps:
+  - Download [map-repo](https://github.com/FortressOne/map-repo/archive/master.zip)
+  - Extract to `C:\FTESV`
