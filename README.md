@@ -3,6 +3,37 @@
 All in one package to run a FortressOne server. Powered by FTE server.
 
 
+## Quick start on Windows 10
+
+Download:
+  - [This package](https://github.com/FortressOne/fortressonesv/archive/master.zip)
+  - [Latest FTE Server for Windows](https://fte.triptohell.info/moodles/win64/fteqwsv64.exe)
+  - [Latest FortressOne Server Progs](https://github.com/FortressOne/server-qwprogs/releases/latest/download/progs.zip)
+
+Install:
+  - Extract `fortressonesv-master.zip` to `C:\`
+  - Rename `C:\fortressonesv-master` to `C:\FTESV`
+  - Copy `fteqwsv64.exe` to `C:\FTESV`
+  - Extract `progs.zip` to `C:\FTESV\fortress`
+
+Run server:
+  - Open command prompt and type:
+      ```
+      cd FTESV
+      fteqwsv64.exe +set hostname 'My FortressOne Server' +exec fo_pubmode.cfg +map 2fort5r
+      ```
+
+Join server:
+  - Open the game, press `~` to open console, type:
+      ```
+      connect localhost
+      ```
+
+Add maps:
+  - Download [map-repo](https://github.com/FortressOne/map-repo/archive/master.zip)
+  - Extract to `C:\FTESV`
+
+
 ## With Docker
 
 Requires [docker](https://docs.docker.com/install/)
@@ -95,34 +126,3 @@ E.G. To run in pub mode with 2fort5r as the initial map:
 ```
 fteqwsv64.exe +set hostname 'My FortressOne Server' +exec fo_pubmode.cfg +map 2fort5r
 ```
-
-
-### I just wanna run a server on Windows and I don't understand all that mumbo-jumbo
-
-Download:
-  - [This package](https://github.com/FortressOne/fortressonesv/archive/master.zip)
-  - [Latest FTE Server for Windows](https://fte.triptohell.info/moodles/win64/fteqwsv64.exe)
-  - [Latest FortressOne Server Progs](https://github.com/FortressOne/server-qwprogs/releases/latest/download/progs.zip)
-
-Install:
-  - Extract `fortressonesv-master.zip` to `C:\`
-  - Rename `C:\fortressonesv-master` to `C:\FTESV`
-  - Copy `fteqwsv64.exe` to `C:\FTESV`
-  - Extract `progs.zip` to `C:\FTESV\fortress`
-
-Run server:
-  - Open command prompt and type:
-      ```
-      cd FTESV
-      fteqwsv64.exe +set hostname 'My FortressOne Server' +exec fo_pubmode.cfg +map 2fort5r
-      ```
-
-Join server:
-  - Open the game, press `~` to open console, type:
-      ```
-      connect localhost
-      ```
-
-Add maps:
-  - Download [map-repo](https://github.com/FortressOne/map-repo/archive/master.zip)
-  - Extract to `C:\FTESV`
