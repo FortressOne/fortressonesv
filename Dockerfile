@@ -9,6 +9,7 @@ RUN apt-get update \
     libpng-dev \
     make \
     mesa-common-dev \
+    stow \
     subversion \
     zlib1g-dev \
  && rm -rf /var/lib/apt/lists/*
@@ -29,7 +30,7 @@ RUN cd /fortressonesv/fortress/dats/ \
     --remote-name-all \
     http://github.com/FortressOne/server-qwprogs/releases/latest/download/{qwprogs,csprogs,menu}.dat \
  && cd /fortressonesv/
-ENTRYPOINT ["/fortressonesv/fteqw-sv"]
+ENTRYPOINT ["/fortressonesv/start.sh"]
 CMD ["-ip", "localhost", \
      "+set", "hostname", "FortressOne", \
      "+exec", "fo_pubmode.cfg", \
