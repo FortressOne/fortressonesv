@@ -44,7 +44,7 @@ Requires [docker](https://docs.docker.com/install/)
 ```
 docker run --interactive --tty --init --rm \
   --publish <port>:27500/udp \
-  --mount type=bind,source=<path_to_assets>,target=/fortressonesv/fortress/assets/ \
+  --mount type=bind,source=<path_to_assets>,target=/fortressonesv/fortress/stow/fortress/ \
   --mount type=bind,source=<path_to_demos>,target=/fortressonesv/fortress/demos/ \
   fortressonesv \
   -ip <ip> \
@@ -56,6 +56,7 @@ docker run --interactive --tty --init --rm \
 ```
 
 Note:
+- `<path_to_assets>` is probably the `fortress/` inside the map-repo.
 - `ip` should be set to your public IP / DNS for public servers
 - `hostname` is the string name of the server
 - You should `exec` one of `fo_pubmode.cfg`, `fo_duelmode.cfg`,
@@ -68,7 +69,7 @@ E.G. To run a server on port 27500, with full set of assets, in quad mode on mba
     ```
     docker run --interactive --tty --init --rm \
       --publish 27500:27500/udp \
-      --mount type=bind,source="$(pwd)/fortress/",target=/fortressonesv/fortress/assets/ \
+      --mount type=bind,source="$(pwd)/fortress/",target=/fortressonesv/fortress/stow/fortress/ \
       --mount type=bind,source="$(pwd)",target=/fortressonesv/fortress/demos/ \
       fortressonesv \
       -ip localhost \

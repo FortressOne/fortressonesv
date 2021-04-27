@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
-stow \
-  --dir fortressonesv/fortress/stow/ \
+rm -rf /fortressonesv/fortress/maps/ \
+  && stow \
+  --dir /fortressonesv/fortress/stow/ \
   --target /fortressonesv/fortress/ \
   --stow fortress \
-  && fortressonesv/fteqw-sv "$@"
+  && /fortressonesv/fteqw-sv "$@"
