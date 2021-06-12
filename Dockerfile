@@ -1,5 +1,6 @@
 FROM ubuntu:18.04
 WORKDIR /fortressonesv
+ARG FTE_CONFIG=fortressone
 EXPOSE 27500/udp
 RUN apt-get update \
  && apt-get install -y \
