@@ -26,7 +26,7 @@ RUN cd /fortressonesv/fortress/dats/ \
  && curl \
     --location \
     --remote-name-all \
-    http://github.com/FortressOne/server-qwprogs/releases/latest/download/{qwprogs,csprogs,menu}.dat \
+    http://github.com/FortressOne/server-qwprogs/releases/latest/download/{qwprogs,csprogs,menu}.dat
 ENTRYPOINT ["/fortressonesv/start.sh"]
 CMD ["-ip", "localhost", \
      "+set", "hostname", "FortressOne", \
