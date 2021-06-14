@@ -17,11 +17,11 @@ COPY . /fortressonesv/
 RUN cd /tmp/ \
  && curl -L https://api.github.com/repos/FortressOne/fteqw-code/tarball > fteqw-code.tar.gz \
  && tar -xvf ./fteqw-code.tar.gz \
- && cd /tmp/FortressOne-fteqw-code-364e743/engine/ \
+ && cd /tmp/FortressOne-fteqw-code-4974cf2/engine/ \
  && make sv-rel -j`nproc` \
  && cd /fortressonesv/ \
- && mv /tmp/FortressOne-fteqw-code-364e743/engine/release/fortressone-sv /fortressonesv/ \
- && rm -rf /tmp/FortressOne-fteqw-code-364e743/
+ && mv /tmp/FortressOne-fteqw-code-4974cf2/engine/release/fortressone-sv /fortressonesv/ \
+ && rm -rf /tmp/FortressOne-fteqw-code-4974cf2/
 RUN cd /fortressonesv/fortress/dats/ \
  && curl \
     --location \

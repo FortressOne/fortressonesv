@@ -7,8 +7,8 @@ All in one package to run a FortressOne server. Powered by FTE server.
 
 Download:
   - [This package](https://github.com/FortressOne/fortressonesv/archive/master.zip)
-  - [Latest FTE Server for Windows](https://fte.triptohell.info/moodles/win64/fteqwsv64.exe)
-  - [Latest FortressOne Server Progs](https://github.com/FortressOne/server-qwprogs/releases/latest/download/progs.zip)
+  - [FO Server for Windows binary fortressonesv.exe](https://github.com/FortressOne/fteqw-code/releases/latest/)
+  - [Latest FortressOne Server progs.zzip](https://github.com/FortressOne/server-qwprogs/releases/latest/)
 
 Install:
   - Extract `fortressonesv-master.zip` to `C:\`
