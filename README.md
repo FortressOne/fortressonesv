@@ -83,6 +83,9 @@ E.G. To run a server on port 27500, with full set of assets, in quad mode on mba
 
 ### Build fortressonesv
 
+- Compile fortressone-sv64 from fteqw repo and copy / symlink to root
+- Compile pak0.pak from assets repo and copy / symlink to root
+
 ```
 docker build --tag=fortressonesv .
 ```
