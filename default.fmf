@@ -6,3 +6,4 @@ name "FortressOne"
 basegame id1
 gamedir fortress
 disablehomedir 1
+protocolname FortressOne
