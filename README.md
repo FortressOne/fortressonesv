@@ -8,19 +8,19 @@ All in one package to run a FortressOne server. Powered by FTE server.
 Download:
   - [This package](https://github.com/FortressOne/fortressonesv/archive/master.zip)
   - [FO Server for Windows binary fortressonesv.exe](https://github.com/FortressOne/fteqw-code/releases/latest/)
-  - [Latest FortressOne Server progs.zzip](https://github.com/FortressOne/server-qwprogs/releases/latest/)
+  - [Latest FortressOne Server progs.zip](https://github.com/FortressOne/server-qwprogs/releases/latest/)
 
 Install:
   - Extract `fortressonesv-master.zip` to `C:\`
-  - Rename `C:\fortressonesv-master` to `C:\FTESV`
-  - Copy `fteqwsv64.exe` to `C:\FTESV`
-  - Extract `progs.zip` to `C:\FTESV\fortress`
+  - Rename `C:\fortressonesv-master` to `C:\FOSV`
+  - Copy `fortrtressonesv64.exe` to `C:\FOSV`
+  - Extract `progs.zip` to `C:\FOSV\fortress`
 
 Run server:
   - Open command prompt and type:
       ```
-      cd FTESV
-      fteqwsv64.exe +set hostname 'My FortressOne Server' +exec fo_pubmode.cfg +map 2fort5r
+      cd FOSV
+      fortressonesv64.exe +set hostname 'My FortressOne Server' +exec fo_pubmode.cfg +map 2fort5r
       ```
 
 Join server:
@@ -31,7 +31,7 @@ Join server:
 
 Add maps:
   - Download [map-repo](https://github.com/FortressOne/map-repo/archive/master.zip)
-  - Extract to `C:\FTESV`
+  - Extract to `C:\FOSV`
 
 
 ## With Docker
@@ -109,23 +109,23 @@ Download the latest [ftesv](http://fte.triptohell.info) server binary for your O
 #### Linux
 
 ```
-./fteqw-sv64 +set hostname <name> +exec fo_<mode>mode.cfg +map <map>
+./fortressone-sv64 +set hostname <name> +exec fo_<mode>mode.cfg +map <map>
 ```
 
 E.G. To run in pub mode with 2fort5r as the initial map:
 
 ```
-./fteqw-sv64 +set hostname 'My FortressOne Server' +exec fo_pubmode.cfg +map 2fort5r
+./fortressone-sv64 +set hostname 'My FortressOne Server' +exec fo_pubmode.cfg +map 2fort5r
 ```
 
 #### Windows
 
 ```
-fteqwsv64.exe +set hostname <name> +exec fo_<mode>mode.cfg +map <map>
+fortressonesv64.exe +set hostname <name> +exec fo_<mode>mode.cfg +map <map>
 ```
 
 E.G. To run in pub mode with 2fort5r as the initial map:
 
 ```
-fteqwsv64.exe +set hostname 'My FortressOne Server' +exec fo_pubmode.cfg +map 2fort5r
+fortressonesv64.exe +set hostname 'My FortressOne Server' +exec fo_pubmode.cfg +map 2fort5r
 ```
