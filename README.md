@@ -83,8 +83,8 @@ E.G. To run a server on port 27500, with full set of assets, in quad mode on mba
 
 ### Build fortressonesv
 
-- Compile fortressone-sv64 from fteqw repo and copy / symlink to root
-- Compile pak0.pak from assets repo and copy / symlink to root
+- Compile fortressone-sv from fteqw repo and copy to root
+- Compile pak0.pak from assets repo and copy to root
 
 ```
 docker build --tag=fortressonesv .
@@ -109,13 +109,13 @@ Download the latest [ftesv](http://fte.triptohell.info) server binary for your O
 #### Linux
 
 ```
-./fortressone-sv64 +set hostname <name> +exec fo_<mode>mode.cfg +map <map>
+./fortressone-sv +set hostname <name> +exec fo_<mode>mode.cfg +map <map>
 ```
 
 E.G. To run in pub mode with 2fort5r as the initial map:
 
 ```
-./fortressone-sv64 +set hostname 'My FortressOne Server' +exec fo_pubmode.cfg +map 2fort5r
+./fortressone-sv +set hostname 'My FortressOne Server' +exec fo_pubmode.cfg +map 2fort5r
 ```
 
 #### Windows

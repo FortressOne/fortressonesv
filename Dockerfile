@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 WORKDIR /fortressonesv
 EXPOSE 27500/udp
 ARG FTE_CONFIG=fortressone
@@ -20,7 +20,7 @@ RUN cd /fortressonesv/fortress/dats/ \
     --remote-name-all \
     http://github.com/FortressOne/server-qwprogs/releases/latest/download/{qwprogs,csprogs,menu}.dat \
  && cd /fortressonesv/
-ENTRYPOINT ["/fortressonesv/fortressone-sv64"]
+ENTRYPOINT ["/fortressonesv/fortressone-sv"]
 CMD ["-ip", "localhost", \
      "+set", "hostname", "FortressOne", \
      "+exec", "fo_pubmode.cfg", \
