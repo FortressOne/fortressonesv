@@ -11,9 +11,14 @@ RUN apt-get update \
     make \
     mesa-common-dev \
     subversion \
+    zip \
     zlib1g-dev \
  && rm -rf /var/lib/apt/lists/*
-COPY . /fortressonesv/
+COPY base/ .
+COPY fo_skins/ /tmp/fo_skins/
+RUN cd /tmp/fo_skins/ \
+ && zip -r /fortressonesv/fortress/fo_skins.pk3 . \
+  && rm -rf /tmp/fo_skins/
 RUN cd /fortressonesv/fortress/dats/ \
  && curl \
     --location \

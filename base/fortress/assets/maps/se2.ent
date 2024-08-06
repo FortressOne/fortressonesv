@@ -1,0 +1,1139 @@
+{
+"wad" "se2.wad"
+"light" "0"
+"sounds" "1"
+"message" "Welcome to Scorched Earth 2\n\nInfo and maps: https://fortressone.org\nDiscord: https://discord.fortressone.org\n"
+"classname" "worldspawn"
+}
+{
+"origin" "-928 10 120"
+"light" "200"
+"angle" "90"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "-1184 10 120"
+"light" "200"
+"angle" "90"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "-970 476 178"
+"light" "400"
+"classname" "light"
+}
+{
+"origin" "-1360 440 180"
+"light" "400"
+"classname" "light"
+}
+{
+"origin" "-1990 602 114"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "-1524 1013 99"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "-1144 1040 180"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "-1524 976 -161"
+"light" "350"
+"classname" "light"
+}
+{
+"origin" "-1056 933 -149"
+"light" "350"
+"classname" "light"
+}
+{
+"origin" "-1410 101 180"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "-1114 822 162"
+"light" "400"
+"classname" "light"
+}
+{
+"origin" "-1482 720 140"
+"light" "400"
+"classname" "light"
+}
+{
+"origin" "-1652 616 356"
+"classname" "light"
+}
+{
+"origin" "-1672 896 354"
+"classname" "light"
+}
+{
+"origin" "-1040 238 124"
+"classname" "light"
+}
+{
+"origin" "-1592 986 -30"
+"speed" "40"
+"classname" "misc_fireball"
+}
+{
+"origin" "-1378 896 -28"
+"speed" "40"
+"classname" "misc_fireball"
+}
+{
+"origin" "-1228 970 -114"
+"speed" "40"
+"classname" "misc_fireball"
+}
+{
+"origin" "-1006 1036 -28"
+"speed" "40"
+"classname" "misc_fireball"
+}
+{
+"origin" "-1242 1078 -28"
+"speed" "40"
+"classname" "misc_fireball"
+}
+{
+"origin" "-1504 608 200"
+"classname" "info_player_start"
+}
+{
+"origin" "-864 1056 320"
+"mangle" "30 227 0"
+"classname" "info_intermission"
+}
+{
+"origin" "-1198 632 200"
+"angle" "113"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1322 618 200"
+"angle" "68"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1108 660 200"
+"angle" "124"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1204 508 200"
+"angle" "89"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1284 508 200"
+"angle" "75"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1364 508 200"
+"angle" "74"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1418 622 200"
+"angle" "21"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-888 336 200"
+"angle" "175"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-880 426 200"
+"angle" "213"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-878 542 200"
+"angle" "234"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-942 664 200"
+"angle" "213"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1008 792 200"
+"angle" "228"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1106 756 200"
+"angle" "273"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1182 726 200"
+"angle" "287"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1254 680 200"
+"angle" "319"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1338 684 200"
+"angle" "285"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1424 688 200"
+"angle" "326"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1510 680 200"
+"angle" "326"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1344 384 200"
+"angle" "66"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1104 458 168"
+"angle" "126"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1104 560 168"
+"angle" "120"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1542 512 200"
+"angle" "354"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1508 436 200"
+"angle" "333"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1490 366 200"
+"angle" "333"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1490 294 200"
+"angle" "9"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1490 216 200"
+"angle" "39"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1492 144 200"
+"angle" "47"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1488 26 226"
+"angle" "64"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1314 248 200"
+"angle" "51"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1244 312 200"
+"angle" "68"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1320 144 200"
+"angle" "86"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1332 18 226"
+"angle" "88"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-1278 448 44"
+"classname" "item_ball"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "1on1r"
+"broadcast" "The Duel Arena."
+"team_broadcast" "Duel"
+"ex_skill_min" "2"
+"ex_skill_max" "2"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "amth1"
+"broadcast" "Duel arena, ctf and Sniper War."
+"team_broadcast" "Duel"
+"ex_skill_min" "2"
+"ex_skill_max" "8"
+"team_no" "4"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "topaz"
+"broadcast" "Duel arena, ctf and Sniper War."
+"team_broadcast" "Duel"
+"ex_skill_min" "2"
+"ex_skill_max" "8"
+"team_no" "4"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "1on1xs"
+"broadcast" "2 Large duel arenas."
+"team_broadcast" "Duel"
+"ex_skill_min" "2"
+"ex_skill_max" "4"
+"team_no" "4"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "knockout"
+"broadcast" "Large massacre arena."
+"team_broadcast" "Arena"
+"ex_skill_min" "2"
+"ex_skill_max" "16"
+"team_no" "4"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "platform"
+"broadcast" "Tiny massacre arena with lava."
+"team_broadcast" "Duel"
+"ex_skill_min" "2"
+"ex_skill_max" "4"
+"team_no" "4"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "versus"
+"broadcast" "Duel arena, but with no sides."
+"team_broadcast" "Duel"
+"ex_skill_min" "2"
+"ex_skill_max" "2"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "hill"
+"broadcast" "4 Teams fight over a hill in the middle. For goodies."
+"team_broadcast" "Arena"
+"ex_skill_min" "2"
+"ex_skill_max" "12"
+"team_no" "4"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "king"
+"broadcast" "4 Teams fight over a platform in the middle. For points."
+"team_broadcast" "Arena"
+"ex_skill_min" "2"
+"ex_skill_max" "12"
+"team_no" "4"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "kotc"
+"broadcast" "2 Teams fight over a platform in the castle. For points."
+"team_broadcast" "CP"
+"ex_skill_min" "2"
+"ex_skill_max" "12"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "frag"
+"broadcast" "Rusty team arena"
+"team_broadcast" "Arena"
+"ex_skill_min" "2"
+"ex_skill_max" "8"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "sq1"
+"broadcast" "Simple team arena"
+"team_broadcast" "Arena"
+"ex_skill_min" "2"
+"ex_skill_max" "8"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "soulsq1"
+"broadcast" "Team arena with soul"
+"team_broadcast" "Arena"
+"ex_skill_min" "2"
+"ex_skill_max" "6"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "1on1forts"
+"broadcast" "2forts-themed mini CTF"
+"team_broadcast" "CTF"
+"ex_skill_min" "2"
+"ex_skill_max" "6"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "sq1ctf"
+"broadcast" "SQ1-themed mini CTF"
+"team_broadcast" "Arena"
+"ex_skill_min" "2"
+"ex_skill_max" "6"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "well1on1"
+"broadcast" "Well-themed mini CTF"
+"team_broadcast" "CTF"
+"ex_skill_min" "2"
+"ex_skill_max" "6"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "poop"
+"broadcast" "Small, high-paced CTF. Does not contain excrement."
+"team_broadcast" "CTF"
+"ex_skill_min" "4"
+"ex_skill_max" "12"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "xpress3"
+"broadcast" "Small, high-paced CTF."
+"team_broadcast" "CTF"
+"ex_skill_min" "4"
+"ex_skill_max" "12"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "xpress2"
+"broadcast" "Like xpress3, but older."
+"team_broadcast" "CTF"
+"ex_skill_min" "4"
+"ex_skill_max" "12"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "xpress4"
+"broadcast" "Like xpress3, but for 4 teams."
+"team_broadcast" "CTF"
+"ex_skill_min" "4"
+"ex_skill_max" "16"
+"team_no" "4"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "minitf2k"
+"broadcast" "The Final Two Kingdoms: mini CTF."
+"team_broadcast" "CTF"
+"ex_skill_min" "4"
+"ex_skill_max" "12"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "mini32s"
+"broadcast" "32 Smooth: mini CTF."
+"team_broadcast" "CTF"
+"ex_skill_min" "4"
+"ex_skill_max" "12"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "preskool"
+"broadcast" "Highschool Hell: mini CTF."
+"team_broadcast" "CTF"
+"ex_skill_min" "4"
+"ex_skill_max" "12"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "midground2"
+"broadcast" "Small CTF map with some secrets."
+"team_broadcast" "CTF"
+"ex_skill_min" "4"
+"ex_skill_max" "12"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "mininoheros"
+"broadcast" "Small industrial CTF map."
+"team_broadcast" "CTF"
+"ex_skill_min" "4"
+"ex_skill_max" "12"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "desperat"
+"broadcast" "Small CTF map full of despair."
+"team_broadcast" "CTF"
+"ex_skill_min" "4"
+"ex_skill_max" "12"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "stag3r_b1"
+"broadcast" "CTF map about hunting deer."
+"team_broadcast" "CTF"
+"ex_skill_min" "6"
+"ex_skill_max" "16"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "well6small"
+"broadcast" "Somewhat smaller version of Well 6."
+"team_broadcast" "CTF"
+"ex_skill_min" "6"
+"ex_skill_max" "16"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "drop2"
+"broadcast" "CTF map about careful crate stacking."
+"team_broadcast" "CTF"
+"ex_skill_min" "6"
+"ex_skill_max" "20"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "fatta1"
+"broadcast" "CTF map about careful crate stacking."
+"team_broadcast" "CTF"
+"ex_skill_min" "6"
+"ex_skill_max" "20"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "frozen1"
+"broadcast" "Frozen Fire CTF based around paradoxes."
+"team_broadcast" "CTF"
+"ex_skill_min" "6"
+"ex_skill_max" "16"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "openfire"
+"broadcast" "CTF map based around redundant commands."
+"team_broadcast" "CTF"
+"ex_skill_min" "6"
+"ex_skill_max" "20"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "genders2"
+"broadcast" "CTF map about biology."
+"team_broadcast" "CTF"
+"ex_skill_min" "6"
+"ex_skill_max" "20"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "rs_zz1"
+"broadcast" "ZigZag1 - CTF map about angled lines."
+"team_broadcast" "CTF"
+"ex_skill_min" "6"
+"ex_skill_max" "16"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "rstrong"
+"broadcast" "Rocky Stronghold CTF."
+"team_broadcast" "CTF"
+"ex_skill_min" "6"
+"ex_skill_max" "20"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "egypt"
+"broadcast" "Egypt-themed CTF."
+"team_broadcast" "CTF"
+"ex_skill_min" "6"
+"ex_skill_max" "20"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "2phaze5r"
+"broadcast" "Smaller 2Forts interpretation."
+"team_broadcast" "CTF"
+"ex_skill_min" "6"
+"ex_skill_max" "16"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "mbasesr"
+"broadcast" "Millenium Bases CTF."
+"team_broadcast" "CTF"
+"ex_skill_min" "6"
+"ex_skill_max" "16"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "bam5_b2"
+"broadcast" "Bam CTF, modified for less lockdown."
+"team_broadcast" "CTF"
+"ex_skill_min" "8"
+"ex_skill_max" "16"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "2fort5r"
+"broadcast" "The iconic 2 Forts."
+"team_broadcast" "CTF"
+"ex_skill_min" "8"
+"ex_skill_max" "20"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "well6"
+"broadcast" "The Well."
+"team_broadcast" "CTF"
+"ex_skill_min" "6"
+"ex_skill_max" "20"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "blitzkrieg2"
+"broadcast" "Big open CTF."
+"team_broadcast" "CTF"
+"ex_skill_min" "8"
+"ex_skill_max" "16"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "tf2k"
+"broadcast" "Future-themed CTF map."
+"team_broadcast" "CTF"
+"ex_skill_min" "8"
+"ex_skill_max" "16"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "turtler"
+"broadcast" "CTF based around aquatic animals."
+"team_broadcast" "CTF"
+"ex_skill_min" "8"
+"ex_skill_max" "16"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "h4rdcore"
+"broadcast" "Spammerific."
+"team_broadcast" "CTF"
+"ex_skill_min" "8"
+"ex_skill_max" "16"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "excel"
+"broadcast" "CTF map themed around office productivity."
+"team_broadcast" "CTF"
+"ex_skill_min" "8"
+"ex_skill_max" "24"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "expert"
+"broadcast" "CTF map with some trees."
+"team_broadcast" "CTF"
+"ex_skill_min" "8"
+"ex_skill_max" "20"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "2night2"
+"broadcast" "CTF, but at night."
+"team_broadcast" "CTF"
+"ex_skill_min" "8"
+"ex_skill_max" "24"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "32smooth"
+"broadcast" "Very smooth."
+"team_broadcast" "CTF"
+"ex_skill_min" "8"
+"ex_skill_max" "24"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "ff-destroy3"
+"broadcast" "Capture the flag by destroying the defenders."
+"team_broadcast" "CTF"
+"ex_skill_min" "8"
+"ex_skill_max" "20"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "ff-schtop"
+"broadcast" "Capture the flag by schtomping the defenders."
+"team_broadcast" "CTF"
+"ex_skill_min" "8"
+"ex_skill_max" "20"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "ff-shutdown3"
+"broadcast" "Capture the flag by shutting down the defenders."
+"team_broadcast" "CTF"
+"ex_skill_min" "8"
+"ex_skill_max" "24"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "ff-monkey"
+"broadcast" "Jungle temple themed CTF."
+"team_broadcast" "CTF"
+"ex_skill_min" "8"
+"ex_skill_max" "24"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "ff-phantom"
+"broadcast" "Capture the flag in haunted space bases."
+"team_broadcast" "CTF"
+"ex_skill_min" "8"
+"ex_skill_max" "20"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "storm7"
+"broadcast" "Capture the flag in bad weather."
+"team_broadcast" "CTF"
+"ex_skill_min" "4"
+"ex_skill_max" "16"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "3on3bu"
+"broadcast" "Capture the flag, but in a pipe."
+"team_broadcast" "CTF"
+"ex_skill_min" "4"
+"ex_skill_max" "16"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "church"
+"broadcast" "Capture the flag by defeating the heathens."
+"team_broadcast" "CTF"
+"ex_skill_min" "8"
+"ex_skill_max" "20"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "dkeep2"
+"broadcast" "Dungeon Keep 2."
+"team_broadcast" "CTF"
+"ex_skill_min" "8"
+"ex_skill_max" "20"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "muskrat4"
+"broadcast" "Muskrat Love 4 CTF."
+"team_broadcast" "CTF"
+"ex_skill_min" "8"
+"ex_skill_max" "20"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "oppose2"
+"broadcast" "Capture the flag with a plumbing theme."
+"team_broadcast" "CTF"
+"ex_skill_min" "8"
+"ex_skill_max" "20"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "lastresort_b4"
+"broadcast" "Capture the flag but only if you run out of other options."
+"team_broadcast" "CTF"
+"ex_skill_min" "8"
+"ex_skill_max" "20"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "canyon1"
+"broadcast" "Capture the flag set in a canyon."
+"team_broadcast" "CTF"
+"ex_skill_min" "8"
+"ex_skill_max" "24"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "z7"
+"broadcast" "Capture the flag while you fall asleep."
+"team_broadcast" "CTF"
+"ex_skill_min" "8"
+"ex_skill_max" "24"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "nmtrees"
+"broadcast" "Capture the flag without any trees."
+"team_broadcast" "CTF"
+"ex_skill_min" "8"
+"ex_skill_max" "24"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "demoz2a"
+"broadcast" "Tech bases CTF."
+"team_broadcast" "CTF"
+"ex_skill_min" "8"
+"ex_skill_max" "24"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "rock2"
+"broadcast" "The Rock, based on the movie The Rock."
+"team_broadcast" "CTF"
+"ex_skill_min" "8"
+"ex_skill_max" "24"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "2fortse"
+"broadcast" "It's 2forts but bigger."
+"team_broadcast" "CTF"
+"ex_skill_min" "8"
+"ex_skill_max" "24"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "shoop"
+"broadcast" "Capture the flag while making up words."
+"team_broadcast" "CTF"
+"ex_skill_min" "8"
+"ex_skill_max" "20"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "japanc2"
+"broadcast" "Capture the flag in Japan."
+"team_broadcast" "CTF"
+"ex_skill_min" "6"
+"ex_skill_max" "20"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "impact1"
+"broadcast" "Capture the flag in a crater."
+"team_broadcast" "CTF"
+"ex_skill_min" "8"
+"ex_skill_max" "24"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "invade4a"
+"broadcast" "Take turns to capture the scroll whilst fighting with magical artifacts."
+"team_broadcast" "CTF"
+"ex_skill_min" "8"
+"ex_skill_max" "24"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "steal4d"
+"broadcast" "Steal the flag from the middle and hold it as long as you can."
+"team_broadcast" "Hold"
+"ex_skill_min" "4"
+"ex_skill_max" "24"
+"team_no" "4"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "blcit1"
+"broadcast" "Take your flag to the Blood Citadel and protect it from the enemy."
+"team_broadcast" "CTF"
+"ex_skill_min" "3"
+"ex_skill_max" "10"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "dissect"
+"broadcast" "Sequentially take your flags into the enemy base's 6 Capture Points."
+"team_broadcast" "Reverse CTF"
+"ex_skill_min" "6"
+"ex_skill_max" "20"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "canalzon"
+"broadcast" "Control as much of the zone as you can using your flags."
+"team_broadcast" "CP"
+"ex_skill_min" "8"
+"ex_skill_max" "24"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "hunted"
+"broadcast" "Be, protect or hunt the president on his way to the stonehenge."
+"team_broadcast" "hunted"
+"ex_skill_min" "3"
+"ex_skill_max" "24"
+"team_no" "3"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "border1"
+"broadcast" "Be, protect or hunt the immigrants on their way across the border."
+"team_broadcast" "hunted"
+"ex_skill_min" "3"
+"ex_skill_max" "24"
+"team_no" "3"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "spaz4"
+"broadcast" "Take the ball from the centre of the arena to an enemy's goal."
+"team_broadcast" "ball"
+"ex_skill_min" "4"
+"ex_skill_max" "32"
+"team_no" "4"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "slam"
+"broadcast" "Slam the ball from the centre of the arena into the enemy's goal."
+"team_broadcast" "ball"
+"ex_skill_min" "4"
+"ex_skill_max" "16"
+"team_no" "2"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "try6"
+"broadcast" "Obstacle Course."
+"team_broadcast" "Trick"
+"ex_skill_min" "1"
+"ex_skill_max" "16"
+"team_no" "1"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "try7"
+"broadcast" "Obstacle Course."
+"team_broadcast" "Trick"
+"ex_skill_min" "1"
+"ex_skill_max" "16"
+"team_no" "1"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "try8"
+"broadcast" "Obstacle Course."
+"team_broadcast" "Trick"
+"ex_skill_min" "1"
+"ex_skill_max" "16"
+"team_no" "1"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "try9"
+"broadcast" "Obstacle Course."
+"team_broadcast" "Trick"
+"ex_skill_min" "1"
+"ex_skill_max" "16"
+"team_no" "1"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "soulrj1"
+"broadcast" "Obstacle Course."
+"team_broadcast" "Trick"
+"ex_skill_min" "1"
+"ex_skill_max" "16"
+"team_no" "1"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "soulrj2f"
+"broadcast" "Obstacle Course."
+"team_broadcast" "Trick"
+"ex_skill_min" "1"
+"ex_skill_max" "16"
+"team_no" "1"
+}
+{
+"origin" "-1278 448 44"
+"classname" "map_candidate"
+"netname" "nanotf1"
+"broadcast" "Obstacle Course."
+"team_broadcast" "Trick"
+"ex_skill_min" "1"
+"ex_skill_max" "16"
+"team_no" "1"
+}
