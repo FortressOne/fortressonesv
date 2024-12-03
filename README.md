@@ -83,7 +83,6 @@ E.G. To run a server on port 27500, with full set of assets, in quad mode on mba
 
 ### Build fortressonesv
 
-- Compile fortressone-sv from fteqw repo and copy to the root dir
 - Compile pak0.pak from assets repo and copy to fortress/
 
 ```
@@ -98,6 +97,15 @@ docker tag fortressonesv fortressone/fortressonesv:latest
 docker push fortressone/fortressonesv:latest
 ```
 
+### Using `init.sh`
+
+> Change any environment variables before running
+
+**Build**: `./init.sh build`
+
+**Run local server**: `./init.sh run_local`
+
+**Run public server**: `./init.sh run_public`
 
 ## Without Docker
 
